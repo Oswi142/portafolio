@@ -1,31 +1,24 @@
 body{
-    color: #D6D58E;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-div{
-    color: #D6D58E;
+
+.pie{
+    color: #EAE3D2
+}
+
+.nombre{
+    font-size: 20px;
+    color: #EAE3D2;
     align-items: center;
+}
+
+h1,h3{
+    color: #EAE3D2;
 }
 
 .perfil{
     padding-top: 10px;
-}
-
-.boxIzquierda{
-    display: flex;
-    background-color: yellow;
-    height: 80%;
-}
-.boxMedio{
-    width: 33%;
-    height: 100%;
-    background-color: rebeccapurple;
-}
-.boxDerecha{
-    width: 33%;
-    height: 100%;
-    background-color: red;
 }
 
 *{
@@ -39,7 +32,7 @@ body{
     flex-direction: column;
 }
 .flex-header{
-    background-color: #023535;
+    background-color: #1C3879;
     padding: 2rem;
     flex-basis: 0%;
     flex-grow: 0;
@@ -55,21 +48,21 @@ body{
 }
 .flex-article{
     padding: 30px;
-    background-color: #008F8C;
+    background-color: #F9F5EB;
     flex-basis: 0%;
     flex-grow: 4;
     flex-shrink: 1;
 }
 .flex-aside{
     padding-top: 20px;
-    background-color: #015958;
+    background-color: #607EAA;
     flex-basis: 0%;
     flex-grow: 1;
     flex-shrink: 1;
 }
 .flex-footer{
     padding: 2rem;
-    background-color:#023535;
+    background-color:#1C3879;
     flex-basis: 0%;
     flex-grow: 0;
     flex-shrink: 1;
@@ -81,3 +74,28 @@ body{
     }
 }
 
+
+table{
+    text-align: justify;
+    width: 95%;
+    margin: auto;
+}
+
+th{
+    color: black;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+td{
+    color: black;
+    font-size: 20px;
+    padding: 30px;
+}
+
+thead{
+    border-bottom: solid 0px;
+    color: black;
+  
+}
