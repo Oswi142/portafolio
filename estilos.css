@@ -104,9 +104,6 @@ thead{
 td:hover{
     background-color:#607EAA;
     color:#EAE3D2;
+    transition: all 700ms ease;
 }
 
-th:hover{
-    border-radius: 10px;
-    background-image:linear-gradient(to right,#F9F5EB,#e4c16b);
-}
