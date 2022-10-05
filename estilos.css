@@ -92,10 +92,21 @@ td{
     color: black;
     font-size: 20px;
     padding: 30px;
+    border-radius: 10px;
 }
 
 thead{
     border-bottom: solid 0px;
     color: black;
   
+}
+
+td:hover{
+    background-color:#607EAA;
+    color:#EAE3D2;
+}
+
+th:hover{
+    border-radius: 10px;
+    background-image:linear-gradient(to right,#F9F5EB,#e4c16b);
 }
